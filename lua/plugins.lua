@@ -47,7 +47,7 @@ return packer.startup(function(use)
 	use("rafamadriz/friendly-snippets") -- a bunch of snippets
 
 	-- colorscheme
-	use("Mofiqul/dracula.nvim")
+	use("ellisonleao/gruvbox.nvim")
 
 	-- status line
 	use({
@@ -65,10 +65,7 @@ return packer.startup(function(use)
 	-- nvim tree
 	use({
 		"nvim-tree/nvim-tree.lua",
-		requires = {
-			"nvim-tree/nvim-web-devicons", -- optional, for file icons
-		},
-		-- tag = 'nightly' -- optional, updated every week. (see issue #1193)
+		"nvim-tree/nvim-web-devicons",
 	})
 
 	-- formatting  linting
