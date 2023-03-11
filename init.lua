@@ -1,4 +1,5 @@
 require("plugins")
+require("lion.plugin.gruvbox")
 require("lion.core.color")
 require("lion.core.keymaps")
 require("lion.core.options")
