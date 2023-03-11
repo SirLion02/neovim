@@ -7,7 +7,7 @@ require("mason-lspconfig").setup({
 		"html",
 		"cssls",
 		"sqlls",
-		"sumneko_lua",
+		"lua_ls",
 		"emmet_ls",
 		"pyright",
 		"gopls",
